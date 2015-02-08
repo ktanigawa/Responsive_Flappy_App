@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Responsive Flappy App</title>
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
   <header>
     <div class="header_container">
       <h1 class="title">
-        <span>flappy</span>app
+        <span class="title_flappy">flappy</span>
+        <span class="title_app">app</span>
         <span class="flappy_logo"><img src="images/logo.png" alt="flappy logo" height="50"></span>
       </h1>
       <nav>
@@ -34,18 +35,21 @@
         </ul>
       </nav>
     </div><!-- header_container -->
+    <div class="lines">
+      <!-- http://www.alwaystwisted.com/post.php?s=2012-05-12-create-a-pure-css-menu-button -->
+    </div>
   </header>
   <div class="layout">
     <div class="main_content">
       <div class="left">
-        <img src="images/scenery.png" alt="flappy scene">
       </div><!-- closing left -->
       <div class="right">
         <ul>
-          <li><span>23</span>different modes</li>
-          <li><span>500</span>options</li>
-          <li>Over<span>9000</span>points</li>
-          <li><span>2x</span>the flappiness of v1</li>
+          <li class="features"><span>features</span></li>
+          <li class="menu_white"><span>23</span>different modes</li>
+          <li class="menu_white"><span>500</span>options</li>
+          <li class="menu_white">Over<span>9000</span>points</li>
+          <li class="menu_white"><span>2x</span>the flappiness of v1</li>
         </ul>
       </div><!-- closing right -->
       <p>
@@ -73,7 +77,7 @@
             </li>
           </ul>
         </div><!-- closing site_left_middle -->
-        <div class="site_left_middle">
+        <div class="site_middle">
           <ul>
             <li>
               <a href="#">commercial licenses</a>
