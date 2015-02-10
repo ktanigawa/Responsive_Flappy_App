@@ -3,18 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Responsive Flappy App</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <header>
-    <div class="header_container">
-      <h1 class="title">
-        <span class="title_flappy">flappy</span>
-        <span class="title_app">app</span>
-        <span class="flappy_logo"><img src="images/logo.png" alt="flappy logo" height="50"></span>
-      </h1>
+    <div class="header_container clearfix">
+      <div class="title">
+        <p>
+          <span class="title_flappy">flappy</span>
+          <span class="title_app">app</span>
+        </p> 
+      </div><!-- title -->
+      <div class="flappy_logo">
+      </div><!-- flappy_logo -->
       <nav>
         <ul>
           <li class="nav_item">
@@ -40,23 +45,25 @@
     </div>
   </header>
   <div class="layout">
-    <div class="main_content">
-      <div class="left">
-      </div><!-- closing left -->
-      <div class="right">
+    <div class="feature">
+      <div class="scenery">
+      </div><!-- closing scenery -->
+      <div class="features_menu box_shadow">
         <ul>
           <li class="features"><span>features</span></li>
-          <li class="menu_white"><span>23</span>different modes</li>
-          <li class="menu_white"><span>500</span>options</li>
-          <li class="menu_white">Over<span>9000</span>points</li>
-          <li class="menu_white"><span>2x</span>the flappiness of v1</li>
+          <li class="white"><span>23</span>different modes</li>
+          <li class="white"><span>500</span>options</li>
+          <li class="white">Over<span>9000</span>points</li>
+          <li class="white"><span>2x</span>the flappiness of v1</li>
         </ul>
-      </div><!-- closing right -->
+      </div><!-- closing features_menu -->
+    </div><!-- closing feature --> 
+    <div class="content">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fringilla purus quis eros euismod sodales. Nullam sed justo quis augue imperdiet pulvinar nec nec dolor. Pellentesque tempor scelerisque accumsan.
       </p>
-    </div><!-- closing main_content --> 
-    <div class="sitemap_conainer"><!--sitemap_conainer-->
+    </div><!-- closing content -->
+    <div class="sitemap_container"><!--sitemap_container-->
       <div class="sitemap">
         <div class="site_left">
           <ul>
