@@ -470,7 +470,7 @@
 
 
   .feature .scenery{
-    background-image: url(/images/scenery.png);
+    background-image: url('../images/scenery.png');
     background-position: left center;
     background-size: cover;
     height: 255px;
@@ -490,10 +490,11 @@
     float: right;
     width: 325px;
     position: absolute;
-    top: 175px;
+    top: 128px;
     left: 820px;
     height: 255px;
   }
+
 
   .features_menu li.features, .features_menu li.white{
     height: 50px;
@@ -523,7 +524,7 @@
     font-size: 24px;
     font-weight: bold;
     line-height: 30px;
-    padding: 5px 50px;
+    padding: 25px 50px 50px;
     text-transform: none;
     float: left;
     width: 93%;
@@ -539,37 +540,41 @@
 
   .sitemap_container{
     line-height: 20px; 
-    margin: 50px;  
+    padding: 50px; 
+    /*background-color: #333339; */
+/*    background-image: url(/images/border.png);
+    background-repeat: repeat-x;
+    background-position: 20px 425px;*/
   }
 
 
-  .sitemap{
+/*  .sitemap{
     background-image: url(/images/border.png);
     background-repeat: repeat-x;
-  }
+  }*/
 
 
   .sitemap .site_left{
     float: left;
-    width: 30%;
+    width: 28%;
     padding-left: 25px;
-    border-left: solid 5px #1ACAC8;
+    border-left: solid 3px #1ACAC8;
   } 
 
 
   .sitemap .site_middle{
     float: left;
-    width: 30%;
+    width: 28%;
     padding-left: 25px;
-    border-left: solid 5px #1ACAC8;    
+    border-left: solid 3px #1ACAC8;    
   } 
 
 
   .sitemap .site_right{
-    float: right;
+    float: left;
     width: 30%;
     padding-left: 25px;
-    border-left: solid 5px #1ACAC8;   
+    border-left: solid 3px #1ACAC8;   
   }
 
 
@@ -611,12 +616,21 @@
     color: #FFF;
     border-bottom: none;
   }
+  
+   
+  footer{
+    float: bottom;
+    background-image: url(/images/border.png);
+    background-repeat: repeat-x;
+    background-position: 20px 425px;
+  }  
+
 
   footer p{
     color: #FFF;
     text-align: center;
     letter-spacing: 3px;
-    padding: 35px 0 0 0;
+    padding: 75px;
     float: left;
     width: 85%;
   }
