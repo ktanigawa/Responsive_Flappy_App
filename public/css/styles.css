@@ -3,8 +3,9 @@
 
 /* MEDIA QUERY */  
 
-/* SMALL-ONLY*/   
-@media only screen and (max-width: 640px){
+/* MEDIUM-ONLY*/   
+@media only screen and (min-width: 641px) and (max-width: 961px){
+
   body{
     margin: auto;
     display: block;
@@ -12,7 +13,7 @@
 
 
   html{
-    font-size: 16px;
+    font-size: 11px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -29,14 +30,19 @@
 
 
   .lines{
-    border-bottom: 17px double #1ACAC8;
-    border-top: 6px solid #1ACAC8;    
-    content:"";
-    height: 5px; 
-    position: absolute; 
-    right:25px;  
-    top: 25px; 
-    width:30px;
+    display: none;
+  }
+
+  .flappy_logo{
+    background-image: url(/images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    float: left;
+    width: 10%;
   }
 
 
@@ -46,12 +52,15 @@
   
 
   .title p{
-    font-size: 20px;
-    letter-spacing: 2px;
-    padding-top: 25px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 3px;
     margin: 0;
-    float: right;
-    width: 75%;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    float: left;
+    width: 10%;
   }
 
 
@@ -65,21 +74,11 @@
   }
 
 
-  .flappy_logo{
-    background-image: url(/images/logo.png);
-    background-repeat: no-repeat;
-    background-size: contain; 
-    height: 55px;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    float: left;
-    width: 25%;
-  }
-
-
-  nav{
-    display: none;
+  nav ul li{
+    display: inline-block;
+    position: relative;
+    float: right;
+    padding: 20px;
   }
 
 
@@ -128,9 +127,9 @@
 
   .content p{
     background-color: #FFF;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
-    line-height: 30px;
+    line-height: 24px;
     padding: 25px;
     text-transform: none;
   }
@@ -143,9 +142,7 @@
   }
 
   .sitemap_container{
-    background-color: #333339;
-    font-size: 14px;
-    line-height: 28px; 
+    line-height: 28px;   
   }
 
 
@@ -153,36 +150,37 @@
     background-image: url(/images/border.png);
     background-repeat: repeat-x;
     padding: 40px;
-    letter-spacing: 2px;
   }
 
 
-/*  .sitemap ul{
-    display: inline-block;
-  } */
-
 
   .sitemap .site_left{
-    width: 50%;
     float: left;
-
+    width: 30%;
   } 
 
 
   .sitemap .site_middle{
-    display: none;
+    float: left;
+    width: 30%;
   } 
 
 
   .sitemap .site_right{
-    width: 50%;
     float: right;
+    width: 30%;
   }
 
 
   a{
     text-decoration: none;
     color: #1ACAC8;
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  a:hover{
+    color: #FFF;
   }
 
 
@@ -195,15 +193,6 @@
     width: 85%;
   }
 } 
-
-
-/* MEDIUM-ONLY */
-                               /*40.063em        60em*/        
-/*@media only screen and (min-width: 641px) and (max-width: 961px){
-  body{
-    background-color: red;
-  }
-}*/
 
 
 /* LARGE-ONLY */      
