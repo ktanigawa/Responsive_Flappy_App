@@ -472,13 +472,12 @@
   .feature .scenery{
     background-image: url(/images/scenery.png);
     background-position: left center;
-    background-size: contain;
+    background-size: cover;
     height: 255px;
-    max-width: 730px;
+    width: 725px;    
     border: solid 3px #000;
     margin: 0 50px;
     float: left;
-    width: 65%;
   }
 
 
@@ -486,18 +485,19 @@
     background-color: #1ACAC8;
     letter-spacing: 2px;
     color: rgb(43 44 51);
+    font-size: 15px;
     text-align: center;
     float: right;
-    width: 30%;
+    width: 325px;
     position: absolute;
     top: 175px;
     left: 820px;
-    height: 220px;
+    height: 255px;
   }
-  
 
   .features_menu li.features, .features_menu li.white{
-    padding: 12px 0;
+    height: 50px;
+    line-height: 50px;
   }
 
 
@@ -540,33 +540,36 @@
   .sitemap_container{
     line-height: 20px; 
     margin: 50px;  
-    background-color: #333339;
   }
 
 
-/*  .sitemap{
+  .sitemap{
     background-image: url(/images/border.png);
     background-repeat: repeat-x;
-  }*/
+  }
 
 
   .sitemap .site_left{
     float: left;
     width: 30%;
     padding-left: 25px;
-    border-left: solid 5px blue;
+    border-left: solid 5px #1ACAC8;
   } 
 
 
   .sitemap .site_middle{
     float: left;
     width: 30%;
+    padding-left: 25px;
+    border-left: solid 5px #1ACAC8;    
   } 
 
 
   .sitemap .site_right{
     float: right;
     width: 30%;
+    padding-left: 25px;
+    border-left: solid 5px #1ACAC8;   
   }
 
 
@@ -604,6 +607,10 @@
     border-bottom: solid 5px #FFF;   
   }
 
+  .sitemap a:hover{
+    color: #FFF;
+    border-bottom: none;
+  }
 
   footer p{
     color: #FFF;
