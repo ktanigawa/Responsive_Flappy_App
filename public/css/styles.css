@@ -17,7 +17,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: #333339;
-    background-color: #333339;
+    background-color: #FFF;
   }
 
 
@@ -25,6 +25,7 @@
     background-image: url(/images/border.png);
     background-repeat: repeat-x;
     background-position: top;
+    background-color: #333339;
   }
 
 
@@ -133,13 +134,14 @@
     line-height: 30px;
     padding: 25px;
     text-transform: none;
+    margin-top: 5px;
   }
 
 
   .box_shadow{
-    -webkit-box-shadow: 0px 5px 3px  #666;
-    -moz-box-shadow: 0px 5px 3px  #666;
-    box-shadow: 0px 5px 3px #666;
+    -webkit-box-shadow: 0 3px 10px #333;
+    -moz-box-shadow: 0 3px 10px #333;
+    box-shadow: 0 3px 10px #333;
   }
 
   .sitemap_container{
@@ -336,9 +338,9 @@
 
 
   .box_shadow{
-    -webkit-box-shadow: 0px 5px 3px  #666;
-    -moz-box-shadow: 0px 5px 3px  #666;
-    box-shadow: 0px 5px 3px #666;
+    -webkit-box-shadow: 0 3px 10px #333;
+    -moz-box-shadow: 0 3px 10px #333;
+    box-shadow: 0 3px 10px #333;
   }
 
   .sitemap_container{
@@ -411,7 +413,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: #333339;
-    background-color: #333339;
+    background-color: #FFF;
   }
 
 
@@ -419,6 +421,8 @@
     background-image: url(/images/border.png);
     background-repeat: repeat-x;
     background-position: top;
+    background-color: #333339;
+    height: 125px;
   }
 
   .lines{
@@ -448,7 +452,7 @@
     margin: 0 52px;
   }
 
-  .title p .title_app{
+  .title p span{
     color: #1ACAC8;
   }
 
@@ -482,12 +486,20 @@
     list-style-type: none;
   }
 
+  
+  .feature{
+    
+  }
+
 
   .feature .scenery{
     background-image: url(/images/scenery.png);
     background-position: left center;
     background-size: contain;
-    height: 200px;
+    height: 255px;
+    max-width: 730px;
+    border: solid 3px #000;
+    margin: 50px;
   }
 
 
@@ -514,11 +526,11 @@
     border-top: solid 1px rgb(0, 160, 160);
   }
 
-/*
+
   li.white span{
     color: #FFF;
     margin: 0 5px;
-  }*/
+  }
 
 
   .content p{
@@ -532,10 +544,11 @@
 
 
   .box_shadow{
-    -webkit-box-shadow: 0px 5px 3px  #666;
-    -moz-box-shadow: 0px 5px 3px  #666;
-    box-shadow: 0px 5px 3px #666;
+    -webkit-box-shadow: 0 3px 10px #333;
+    -moz-box-shadow: 0 3px 10px #333;
+    box-shadow: 0 3px 10px #333;
   }
+
 
   .sitemap_container{
     height: 200px;
@@ -548,7 +561,6 @@
     background-repeat: repeat-x;
     padding: 30px 30px;
   }
-
 
 
   .sitemap .site_left{
