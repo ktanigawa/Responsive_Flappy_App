@@ -469,29 +469,6 @@
   }
 
 
-  nav ul li{
-    display: inline-block;
-    margin: 10px;
-  }
-
-  
-  nav{
-    position: relative;
-    float: right;
-    padding: 35px 45px;
-  }
-
-
-  ul{
-    list-style-type: none;
-  }
-
-  
-  .feature{
-    
-  }
-
-
   .feature .scenery{
     background-image: url(/images/scenery.png);
     background-position: left center;
@@ -499,7 +476,9 @@
     height: 255px;
     max-width: 730px;
     border: solid 3px #000;
-    margin: 50px;
+    margin: 0 50px;
+    float: left;
+    width: 65%;
   }
 
 
@@ -508,6 +487,12 @@
     letter-spacing: 2px;
     color: rgb(43 44 51);
     text-align: center;
+    float: right;
+    width: 30%;
+    position: absolute;
+    top: 175px;
+    left: 820px;
+    height: 220px;
   }
   
 
@@ -538,8 +523,10 @@
     font-size: 24px;
     font-weight: bold;
     line-height: 30px;
-    padding: 50px;
+    padding: 5px 50px;
     text-transform: none;
+    float: left;
+    width: 93%;
   }
 
 
@@ -551,21 +538,23 @@
 
 
   .sitemap_container{
-    height: 200px;
-    line-height: 20px;   
+    line-height: 20px; 
+    margin: 50px;  
+    background-color: #333339;
   }
 
 
-  .sitemap{
+/*  .sitemap{
     background-image: url(/images/border.png);
     background-repeat: repeat-x;
-    padding: 30px 30px;
-  }
+  }*/
 
 
   .sitemap .site_left{
     float: left;
     width: 30%;
+    padding-left: 25px;
+    border-left: solid 5px blue;
   } 
 
 
@@ -581,15 +570,38 @@
   }
 
 
+  nav ul li{
+    display: inline-block;
+    margin: 10px 3px 20px 3px;
+  }
+
+  
+  nav{
+    position: relative;
+    float: left;
+    top: 35px;
+    left: 685px;
+    border-bottom: solid 5px #1ACAC8;
+  }
+
+
+  ul{
+    list-style-type: none;
+  }
+
+
   a{
     text-decoration: none;
     color: #1ACAC8;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 3px;
   }
 
+
   a:hover{
     color: #FFF;
+    padding-bottom: 19px; 
+    border-bottom: solid 5px #FFF;   
   }
 
 
