@@ -241,7 +241,9 @@
 
 
   .title{
-    height: 70px;
+    height: 100px;
+    float: left;
+    width: 120px; 
   }
   
 
@@ -270,9 +272,13 @@
 
   nav ul li{
     display: inline-block;
+    margin: 10px;
+  }
+  
+  nav{
     position: relative;
     float: right;
-    padding: 20px;
+    padding: 35px 45px;
   }
 
 
@@ -283,9 +289,9 @@
 
   .feature .scenery{
     background-image: url(/images/scenery.png);
-    background-position: right center;
-    background-size: cover;
-    height: 220px;
+    background-position: left center;
+    background-size: contain;
+    height: 200px;
   }
 
 
@@ -298,7 +304,7 @@
   
 
   .features_menu li.features, .features_menu li.white{
-    padding: 20px 0;
+    padding: 12px 0;
   }
 
 
@@ -321,10 +327,10 @@
 
   .content p{
     background-color: #FFF;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     line-height: 24px;
-    padding: 25px;
+    padding: 30px;
     text-transform: none;
   }
 
@@ -336,14 +342,15 @@
   }
 
   .sitemap_container{
-    line-height: 28px;   
+    height: 200px;
+    line-height: 20px;   
   }
 
 
   .sitemap{
     background-image: url(/images/border.png);
     background-repeat: repeat-x;
-    padding: 40px;
+    padding: 30px 30px;
   }
 
 
@@ -369,7 +376,7 @@
   a{
     text-decoration: none;
     color: #1ACAC8;
-    font-size: 11px;
+    font-size: 10px;
     letter-spacing: 2px;
   }
 
@@ -382,7 +389,7 @@
     color: #FFF;
     text-align: center;
     letter-spacing: 3px;
-    padding: 30px 25px 15px;
+    padding: 35px 0 0 0;
     float: left;
     width: 85%;
   }
